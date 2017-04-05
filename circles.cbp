@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="circles" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="circles-debug" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="1 500 50000 formations/rectangle.form some_stats.txt" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="circles-release" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="1 200 120000 formations/cross.form some_stats.txt" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Profiling">
+				<Option output="circles-profiling" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Profiling/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="1 150 50000 formations/cross.form some_stats.txt" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+					<Add option="-pg" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg -lgmon" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="src" />
+		</Compiler>
+		<Linker>
+			<Add library="lib/libsigil.dll.a" />
+		</Linker>
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/objects/object.cpp" />
+		<Unit filename="src/objects/object.h" />
+		<Unit filename="src/objects/robot.cpp" />
+		<Unit filename="src/objects/robot.h" />
+		<Unit filename="src/sl/sl.h" />
+		<Unit filename="src/util/util.cpp" />
+		<Unit filename="src/util/util.h" />
+		<Unit filename="src/world/world.cpp" />
+		<Unit filename="src/world/world.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

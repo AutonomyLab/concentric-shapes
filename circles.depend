@@ -1,0 +1,2819 @@
+# depslib dependency file v1.0
+1475722592 source:c:\users\geoff\runway\src\objects\base.cpp
+	"objects/base.h"
+	"world/world.h"
+	"sl/sl.h"
+	"glm/glm.hpp"
+
+1475722592 c:\users\geoff\runway\src\objects\base.h
+	"objects/object.h"
+	"glm/glm.hpp"
+
+1477028894 c:\users\geoff\runway\src\objects\object.h
+	"glm/glm.hpp"
+
+1475722591 c:\users\geoff\runway\src\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\_fixes.hpp
+	<cmath>
+
+1475722591 c:\users\geoff\runway\src\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1475722590 c:\users\geoff\runway\src\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	<__config>
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\precision.hpp
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1475722592 c:\users\geoff\runway\src\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\_swizzle.hpp
+
+1475722590 c:\users\geoff\runway\src\glm\detail\_swizzle_func.hpp
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_vec2.inl
+
+1475722592 c:\users\geoff\runway\src\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_vec3.inl
+
+1475722592 c:\users\geoff\runway\src\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_vec4.inl
+	"type_vec4_sse2.inl"
+	"type_vec4_avx.inl"
+	"type_vec4_avx2.inl"
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_vec4_sse2.inl
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_vec4_avx.inl
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_vec4_avx2.inl
+
+1475722592 c:\users\geoff\runway\src\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat2x2.inl
+
+1475722592 c:\users\geoff\runway\src\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat2x3.inl
+
+1475722592 c:\users\geoff\runway\src\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat2x4.inl
+
+1475722592 c:\users\geoff\runway\src\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat3x2.inl
+
+1475722592 c:\users\geoff\runway\src\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat3x3.inl
+
+1475722592 c:\users\geoff\runway\src\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat3x4.inl
+
+1475722592 c:\users\geoff\runway\src\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat4x2.inl
+
+1475722592 c:\users\geoff\runway\src\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_mat4x3.inl
+
+1475722592 c:\users\geoff\runway\src\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_mat4x4.inl
+
+1475722592 c:\users\geoff\runway\src\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1475722590 c:\users\geoff\runway\src\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1475722591 c:\users\geoff\runway\src\glm\detail\type_vec1.inl
+
+1475722591 c:\users\geoff\runway\src\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_vector_relational.inl
+	<limits>
+
+1475722590 c:\users\geoff\runway\src\glm\common.hpp
+	"detail/func_common.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1475722592 c:\users\geoff\runway\src\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\type_half.inl
+
+1475722591 c:\users\geoff\runway\src\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1475722592 c:\users\geoff\runway\src\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1475722592 c:\users\geoff\runway\src\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1475722592 c:\users\geoff\runway\src\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1475722590 c:\users\geoff\runway\src\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1477083109 c:\users\geoff\runway\src\world\world.h
+	"objects/marker.h"
+	"glm/glm.hpp"
+	<vector>
+
+1475722592 c:\users\geoff\runway\src\objects\marker.h
+	"glm/glm.hpp"
+
+1475722592 c:\users\geoff\runway\src\sl\sl.h
+
+1475722592 source:c:\users\geoff\runway\src\objects\food.cpp
+	"objects/food.h"
+	"world/world.h"
+	"sl/sl.h"
+	"glm/glm.hpp"
+	<iostream>
+
+1475722592 c:\users\geoff\runway\src\objects\food.h
+	"objects/object.h"
+	"glm/glm.hpp"
+
+1475722592 source:c:\users\geoff\runway\src\objects\light.cpp
+	"objects/light.h"
+	"sl/sl.h"
+	"glm/glm.hpp"
+
+1475722592 c:\users\geoff\runway\src\objects\light.h
+	"glm/glm.hpp"
+
+1475722592 source:c:\users\geoff\runway\src\objects\marker.cpp
+	"objects/marker.h"
+	"sl/sl.h"
+	"glm/glm.hpp"
+
+1477037104 source:c:\users\geoff\runway\src\objects\object.cpp
+	"objects/object.h"
+	"glm/glm.hpp"
+
+1477096855 source:c:\users\geoff\runway\src\world\world.cpp
+	"world/world.h"
+	"objects/robot.h"
+	"objects/food.h"
+	"objects/base.h"
+	"sl/sl.h"
+	"glm/glm.hpp"
+	<vector>
+	<sstream>
+	<iostream>
+	<iomanip>
+
+1477089239 c:\users\geoff\runway\src\objects\robot.h
+	"objects/object.h"
+	"objects/marker.h"
+	"glm/glm.hpp"
+	<vector>
+	<map>
+
+1477100696 source:c:\users\geoff\runway\src\main.cpp
+	"sl/sl.h"
+	"world/world.h"
+	"glm/glm.hpp"
+	"glm/gtc/random.hpp"
+	<iostream>
+
+1475722591 c:\users\geoff\runway\src\glm\gtc\random.hpp
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"random.inl"
+
+1475722591 c:\users\geoff\runway\src\glm\gtc\random.inl
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<cstdlib>
+	<ctime>
+	<cassert>
+
+1477101144 source:c:\users\geoff\runway\src\objects\robot.cpp
+	"objects/robot.h"
+	"objects/food.h"
+	"objects/marker.h"
+	"world/world.h"
+	"sl/sl.h"
+	"glm/glm.hpp"
+	"glm/gtc/random.hpp"
+	<iostream>
+
+1482446724 source:c:\users\geoff\circles\src\main.cpp
+	"sl/sl.h"
+	"world/world.h"
+	"objects/robot.h"
+	"glm/glm.hpp"
+	"glm/gtc/random.hpp"
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<fenv.h>
+
+1481857512 c:\users\geoff\circles\src\sl\sl.h
+
+1481919680 c:\users\geoff\circles\src\world\world.h
+	"glm/glm.hpp"
+	<vector>
+
+1475722592 c:\users\geoff\circles\src\objects\marker.h
+	"glm/glm.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\_fixes.hpp
+	<cmath>
+
+1481857509 c:\users\geoff\circles\src\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1481857509 c:\users\geoff\circles\src\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	<__config>
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\precision.hpp
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1481857512 c:\users\geoff\circles\src\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\_swizzle.hpp
+
+1481857508 c:\users\geoff\circles\src\glm\detail\_swizzle_func.hpp
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_vec2.inl
+
+1481857512 c:\users\geoff\circles\src\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_vec3.inl
+
+1481857512 c:\users\geoff\circles\src\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_vec4.inl
+	"type_vec4_sse2.inl"
+	"type_vec4_avx.inl"
+	"type_vec4_avx2.inl"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_vec4_sse2.inl
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_vec4_avx.inl
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_vec4_avx2.inl
+
+1481857512 c:\users\geoff\circles\src\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat2x2.inl
+
+1481857512 c:\users\geoff\circles\src\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat2x3.inl
+
+1481857512 c:\users\geoff\circles\src\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat2x4.inl
+
+1481857512 c:\users\geoff\circles\src\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat3x2.inl
+
+1481857512 c:\users\geoff\circles\src\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat3x3.inl
+
+1481857512 c:\users\geoff\circles\src\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat3x4.inl
+
+1481857512 c:\users\geoff\circles\src\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat4x2.inl
+
+1481857512 c:\users\geoff\circles\src\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat4x3.inl
+
+1481857512 c:\users\geoff\circles\src\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_mat4x4.inl
+
+1481857512 c:\users\geoff\circles\src\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1481857508 c:\users\geoff\circles\src\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_vec1.inl
+
+1481857509 c:\users\geoff\circles\src\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_vector_relational.inl
+	<limits>
+
+1481857508 c:\users\geoff\circles\src\glm\common.hpp
+	"detail/func_common.hpp"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1481857512 c:\users\geoff\circles\src\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1481857509 c:\users\geoff\circles\src\glm\detail\type_half.inl
+
+1481857509 c:\users\geoff\circles\src\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1481857512 c:\users\geoff\circles\src\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1481857512 c:\users\geoff\circles\src\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1481857512 c:\users\geoff\circles\src\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1481857508 c:\users\geoff\circles\src\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1481857510 c:\users\geoff\circles\src\glm\gtc\random.hpp
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"random.inl"
+
+1481857510 c:\users\geoff\circles\src\glm\gtc\random.inl
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<cstdlib>
+	<ctime>
+	<cassert>
+
+1475722592 source:c:\users\geoff\circles\src\objects\base.cpp
+	"objects/base.h"
+	"world/world.h"
+	"sl/sl.h"
+	"glm/glm.hpp"
+
+1475722592 c:\users\geoff\circles\src\objects\base.h
+	"objects/object.h"
+	"glm/glm.hpp"
+
+1481917051 c:\users\geoff\circles\src\objects\object.h
+	"glm/glm.hpp"
+
+1475722592 source:c:\users\geoff\circles\src\objects\food.cpp
+	"objects/food.h"
+	"world/world.h"
+	"sl/sl.h"
+	"glm/glm.hpp"
+	<iostream>
+
+1475722592 c:\users\geoff\circles\src\objects\food.h
+	"objects/object.h"
+	"glm/glm.hpp"
+
+1475722592 source:c:\users\geoff\circles\src\objects\light.cpp
+	"objects/light.h"
+	"sl/sl.h"
+	"glm/glm.hpp"
+
+1475722592 c:\users\geoff\circles\src\objects\light.h
+	"glm/glm.hpp"
+
+1475722592 source:c:\users\geoff\circles\src\objects\marker.cpp
+	"objects/marker.h"
+	"sl/sl.h"
+	"glm/glm.hpp"
+
+1481923300 source:c:\users\geoff\circles\src\objects\object.cpp
+	"objects/object.h"
+	"glm/glm.hpp"
+
+1482446009 source:c:\users\geoff\circles\src\world\world.cpp
+	"world/world.h"
+	"objects/robot.h"
+	"sl/sl.h"
+	"util/util.h"
+	"glm/glm.hpp"
+	"glm/gtc/random.hpp"
+	<vector>
+	<sstream>
+	<iostream>
+	<iomanip>
+	<cstring>
+
+1481927955 c:\users\geoff\circles\src\objects\robot.h
+	"objects/object.h"
+	"glm/glm.hpp"
+	<string>
+
+1482283645 source:c:\users\geoff\circles\src\objects\robot.cpp
+	"objects/robot.h"
+	"world/world.h"
+	"sl/sl.h"
+	"util/util.h"
+	"glm/glm.hpp"
+	"glm/gtc/random.hpp"
+	<iostream>
+	<iomanip>
+	<fstream>
+
+1481855331 source:c:\users\geoff\ellipse\src\main.cpp
+	"sl/sl.h"
+	"world/world.h"
+	"objects/robot.h"
+	"glm/glm.hpp"
+	"glm/gtc/random.hpp"
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1475718992 c:\users\geoff\ellipse\src\sl\sl.h
+
+1481856342 c:\users\geoff\ellipse\src\world\world.h
+	"glm/glm.hpp"
+	<vector>
+
+1475718991 c:\users\geoff\ellipse\src\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\_fixes.hpp
+	<cmath>
+
+1475718991 c:\users\geoff\ellipse\src\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	<__config>
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\precision.hpp
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1475718992 c:\users\geoff\ellipse\src\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\_swizzle.hpp
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\_swizzle_func.hpp
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_vec2.inl
+
+1475718992 c:\users\geoff\ellipse\src\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_vec3.inl
+
+1475718992 c:\users\geoff\ellipse\src\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_vec4.inl
+	"type_vec4_sse2.inl"
+	"type_vec4_avx.inl"
+	"type_vec4_avx2.inl"
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_vec4_sse2.inl
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_vec4_avx.inl
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_vec4_avx2.inl
+
+1475718992 c:\users\geoff\ellipse\src\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat2x2.inl
+
+1475718992 c:\users\geoff\ellipse\src\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat2x3.inl
+
+1475718992 c:\users\geoff\ellipse\src\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat2x4.inl
+
+1475718992 c:\users\geoff\ellipse\src\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat3x2.inl
+
+1475718992 c:\users\geoff\ellipse\src\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat3x3.inl
+
+1475718992 c:\users\geoff\ellipse\src\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat3x4.inl
+
+1475718992 c:\users\geoff\ellipse\src\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat4x2.inl
+
+1475718992 c:\users\geoff\ellipse\src\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_mat4x3.inl
+
+1475718992 c:\users\geoff\ellipse\src\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_mat4x4.inl
+
+1475718992 c:\users\geoff\ellipse\src\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1475718991 c:\users\geoff\ellipse\src\glm\detail\type_vec1.inl
+
+1475718991 c:\users\geoff\ellipse\src\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_vector_relational.inl
+	<limits>
+
+1475718990 c:\users\geoff\ellipse\src\glm\common.hpp
+	"detail/func_common.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1475718992 c:\users\geoff\ellipse\src\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\type_half.inl
+
+1475718991 c:\users\geoff\ellipse\src\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1475718992 c:\users\geoff\ellipse\src\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1475718992 c:\users\geoff\ellipse\src\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1475718992 c:\users\geoff\ellipse\src\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1475718990 c:\users\geoff\ellipse\src\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1475718991 c:\users\geoff\ellipse\src\glm\gtc\random.hpp
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"random.inl"
+
+1475718991 c:\users\geoff\ellipse\src\glm\gtc\random.inl
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<cstdlib>
+	<ctime>
+	<cassert>
+
+1477351874 source:c:\users\geoff\ellipse\src\objects\object.cpp
+	"objects/object.h"
+	"glm/glm.hpp"
+
+1477351855 c:\users\geoff\ellipse\src\objects\object.h
+	"glm/glm.hpp"
+
+1481856421 source:c:\users\geoff\ellipse\src\objects\robot.cpp
+	"objects/robot.h"
+	"world/world.h"
+	"sl/sl.h"
+	"util/util.h"
+	"glm/glm.hpp"
+	"glm/gtc/random.hpp"
+	<iostream>
+	<iomanip>
+
+1481856324 c:\users\geoff\ellipse\src\objects\robot.h
+	"objects/object.h"
+	"glm/glm.hpp"
+	<vector>
+	<map>
+
+1481856379 source:c:\users\geoff\ellipse\src\world\world.cpp
+	"world/world.h"
+	"objects/robot.h"
+	"sl/sl.h"
+	"util/util.h"
+	"glm/glm.hpp"
+	"glm/gtc/random.hpp"
+	<vector>
+	<sstream>
+	<iostream>
+	<iomanip>
+	<cstring>
+
+1481856143 c:\users\geoff\ellipse\src\util\util.h
+
+1481856353 source:c:\users\geoff\ellipse\src\util\util.cpp
+	"util/util.h"
+	"glm/glm.hpp"
+
+1481855331 source:c:\users\geoff\ellipse - copy (2)\src\main.cpp
+	"sl/sl.h"
+	"world/world.h"
+	"objects/robot.h"
+	"glm/glm.hpp"
+	"glm/gtc/random.hpp"
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\sl\sl.h
+
+1481856342 c:\users\geoff\ellipse - copy (2)\src\world\world.h
+	"glm/glm.hpp"
+	<vector>
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\_fixes.hpp
+	<cmath>
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	<__config>
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\precision.hpp
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\_swizzle.hpp
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\_swizzle_func.hpp
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_vec2.inl
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_vec3.inl
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_vec4.inl
+	"type_vec4_sse2.inl"
+	"type_vec4_avx.inl"
+	"type_vec4_avx2.inl"
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_vec4_sse2.inl
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_vec4_avx.inl
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_vec4_avx2.inl
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat2x2.inl
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat2x3.inl
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat2x4.inl
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat3x2.inl
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat3x3.inl
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat3x4.inl
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat4x2.inl
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat4x3.inl
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_mat4x4.inl
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_vec1.inl
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_vector_relational.inl
+	<limits>
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\common.hpp
+	"detail/func_common.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\type_half.inl
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1475718992 c:\users\geoff\ellipse - copy (2)\src\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1475718990 c:\users\geoff\ellipse - copy (2)\src\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1481856324 c:\users\geoff\ellipse - copy (2)\src\objects\robot.h
+	"objects/object.h"
+	"glm/glm.hpp"
+	<vector>
+	<map>
+
+1477351855 c:\users\geoff\ellipse - copy (2)\src\objects\object.h
+	"glm/glm.hpp"
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\gtc\random.hpp
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"random.inl"
+
+1475718991 c:\users\geoff\ellipse - copy (2)\src\glm\gtc\random.inl
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<cstdlib>
+	<ctime>
+	<cassert>
+
+1477351874 source:c:\users\geoff\ellipse - copy (2)\src\objects\object.cpp
+	"objects/object.h"
+	"glm/glm.hpp"
+
+1481857512 source:c:\users\geoff\circles - copy\src\main.cpp
+	"sl/sl.h"
+	"world/world.h"
+	"objects/robot.h"
+	"glm/glm.hpp"
+	"glm/gtc/random.hpp"
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1481857512 c:\users\geoff\circles - copy\src\sl\sl.h
+
+1481857725 c:\users\geoff\circles - copy\src\world\world.h
+	"glm/glm.hpp"
+	<vector>
+
+1481857509 c:\users\geoff\circles - copy\src\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\_fixes.hpp
+	<cmath>
+
+1481857509 c:\users\geoff\circles - copy\src\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	<__config>
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\precision.hpp
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1481857512 c:\users\geoff\circles - copy\src\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\_swizzle.hpp
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\_swizzle_func.hpp
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_vec2.inl
+
+1481857512 c:\users\geoff\circles - copy\src\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_vec3.inl
+
+1481857512 c:\users\geoff\circles - copy\src\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_vec4.inl
+	"type_vec4_sse2.inl"
+	"type_vec4_avx.inl"
+	"type_vec4_avx2.inl"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_vec4_sse2.inl
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_vec4_avx.inl
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_vec4_avx2.inl
+
+1481857512 c:\users\geoff\circles - copy\src\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat2x2.inl
+
+1481857512 c:\users\geoff\circles - copy\src\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat2x3.inl
+
+1481857512 c:\users\geoff\circles - copy\src\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat2x4.inl
+
+1481857512 c:\users\geoff\circles - copy\src\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat3x2.inl
+
+1481857512 c:\users\geoff\circles - copy\src\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat3x3.inl
+
+1481857512 c:\users\geoff\circles - copy\src\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat3x4.inl
+
+1481857512 c:\users\geoff\circles - copy\src\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat4x2.inl
+
+1481857512 c:\users\geoff\circles - copy\src\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat4x3.inl
+
+1481857512 c:\users\geoff\circles - copy\src\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_mat4x4.inl
+
+1481857512 c:\users\geoff\circles - copy\src\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_vec1.inl
+
+1481857509 c:\users\geoff\circles - copy\src\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_vector_relational.inl
+	<limits>
+
+1481857508 c:\users\geoff\circles - copy\src\glm\common.hpp
+	"detail/func_common.hpp"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1481857512 c:\users\geoff\circles - copy\src\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1481857509 c:\users\geoff\circles - copy\src\glm\detail\type_half.inl
+
+1481857509 c:\users\geoff\circles - copy\src\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1481857512 c:\users\geoff\circles - copy\src\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1481857512 c:\users\geoff\circles - copy\src\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1481857512 c:\users\geoff\circles - copy\src\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1481857508 c:\users\geoff\circles - copy\src\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1481858015 c:\users\geoff\circles - copy\src\objects\robot.h
+	"objects/object.h"
+	"glm/glm.hpp"
+	<vector>
+	<map>
+
+1481857512 c:\users\geoff\circles - copy\src\objects\object.h
+	"glm/glm.hpp"
+
+1481857510 c:\users\geoff\circles - copy\src\glm\gtc\random.hpp
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"random.inl"
+
+1481857510 c:\users\geoff\circles - copy\src\glm\gtc\random.inl
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<cstdlib>
+	<ctime>
+	<cassert>
+
+1481857512 source:c:\users\geoff\circles - copy\src\objects\object.cpp
+	"objects/object.h"
+	"glm/glm.hpp"
+
+1481857512 source:c:\users\geoff\circles - copy\src\objects\robot.cpp
+	"objects/robot.h"
+	"world/world.h"
+	"sl/sl.h"
+	"util/util.h"
+	"glm/glm.hpp"
+	"glm/gtc/random.hpp"
+	<iostream>
+	<iomanip>
+
+1481857512 c:\users\geoff\circles - copy\src\util\util.h
+
+1481857512 source:c:\users\geoff\circles - copy\src\util\util.cpp
+	"util/util.h"
+	"glm/glm.hpp"
+
+1481857797 source:c:\users\geoff\circles - copy\src\world\world.cpp
+	"world/world.h"
+	"objects/robot.h"
+	"sl/sl.h"
+	"util/util.h"
+	"glm/glm.hpp"
+	"glm/gtc/random.hpp"
+	<vector>
+	<sstream>
+	<iostream>
+	<iomanip>
+	<cstring>
+
+1481857512 source:c:\users\geoff\circles\src\util\util.cpp
+	"util/util.h"
+	"glm/glm.hpp"
+
+1481857512 c:\users\geoff\circles\src\util\util.h
+
+1481926900 source:c:\users\geoff\circles-autonomy\src\objects\object.cpp
+	"objects/object.h"
+	"glm/glm.hpp"
+
+1481920651 c:\users\geoff\circles-autonomy\src\objects\object.h
+	"glm/glm.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\_fixes.hpp
+	<cmath>
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	<__config>
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\precision.hpp
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\_swizzle.hpp
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\_swizzle_func.hpp
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_vec2.inl
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_vec3.inl
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_vec4.inl
+	"type_vec4_sse2.inl"
+	"type_vec4_avx.inl"
+	"type_vec4_avx2.inl"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_vec4_sse2.inl
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_vec4_avx.inl
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_vec4_avx2.inl
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat2x2.inl
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat2x3.inl
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat2x4.inl
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat3x2.inl
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat3x3.inl
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat3x4.inl
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat4x2.inl
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat4x3.inl
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_mat4x4.inl
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_vec1.inl
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_vector_relational.inl
+	<limits>
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\common.hpp
+	"detail/func_common.hpp"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\detail\type_half.inl
+
+1481861109 c:\users\geoff\circles-autonomy\src\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1481861112 c:\users\geoff\circles-autonomy\src\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1481861108 c:\users\geoff\circles-autonomy\src\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1486503800 source:c:\users\geoff\circles-autonomy\src\objects\robot.cpp
+	"objects/robot.h"
+	"world/world.h"
+	"sl/sl.h"
+	"util/util.h"
+	"glm/glm.hpp"
+	"glm/gtc/random.hpp"
+	<iostream>
+	<iomanip>
+	<fstream>
+
+1481931555 c:\users\geoff\circles-autonomy\src\objects\robot.h
+	"objects/object.h"
+	"glm/glm.hpp"
+	<string>
+
+1481923280 c:\users\geoff\circles-autonomy\src\world\world.h
+	"glm/glm.hpp"
+	<vector>
+
+1481861112 c:\users\geoff\circles-autonomy\src\sl\sl.h
+
+1481861112 c:\users\geoff\circles-autonomy\src\util\util.h
+
+1481861110 c:\users\geoff\circles-autonomy\src\glm\gtc\random.hpp
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"random.inl"
+
+1481861110 c:\users\geoff\circles-autonomy\src\glm\gtc\random.inl
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<cstdlib>
+	<ctime>
+	<cassert>
+
+1481861112 source:c:\users\geoff\circles-autonomy\src\util\util.cpp
+	"util/util.h"
+	"glm/glm.hpp"
+
+1482449609 source:c:\users\geoff\circles-autonomy\src\world\world.cpp
+	"world/world.h"
+	"objects/robot.h"
+	"sl/sl.h"
+	"util/util.h"
+	"glm/glm.hpp"
+	"glm/gtc/random.hpp"
+	<vector>
+	<sstream>
+	<iostream>
+	<iomanip>
+	<cstring>
+
